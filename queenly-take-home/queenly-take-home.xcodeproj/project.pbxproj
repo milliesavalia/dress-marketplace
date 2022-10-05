@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D39EBB7625C28FD1006889BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D39EBB7525C28FD1006889BF /* AppDelegate.m */; };
+		D39EBB7925C28FD1006889BF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D39EBB7825C28FD1006889BF /* SceneDelegate.m */; };
+		D39EBB7C25C28FD1006889BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39EBB7B25C28FD1006889BF /* ViewController.m */; };
+		D39EBB7F25C28FD1006889BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D39EBB7D25C28FD1006889BF /* Main.storyboard */; };
+		D39EBB8125C28FD8006889BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39EBB8025C28FD8006889BF /* Assets.xcassets */; };
+		D39EBB8425C28FD8006889BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D39EBB8225C28FD8006889BF /* LaunchScreen.storyboard */; };
+		D39EBB8725C28FD8006889BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D39EBB8625C28FD8006889BF /* main.m */; };
+		D39EBB9125C28FD8006889BF /* queenly_take_homeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D39EBB9025C28FD8006889BF /* queenly_take_homeTests.m */; };
+		D39EBB9C25C28FD8006889BF /* queenly_take_homeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D39EBB9B25C28FD8006889BF /* queenly_take_homeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D39EBB8D25C28FD8006889BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D39EBB6925C28FD1006889BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D39EBB7025C28FD1006889BF;
+			remoteInfo = "queenly-take-home";
+		};
+		D39EBB9825C28FD8006889BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D39EBB6925C28FD1006889BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D39EBB7025C28FD1006889BF;
+			remoteInfo = "queenly-take-home";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D39EBB7125C28FD1006889BF /* queenly-take-home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "queenly-take-home.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39EBB7425C28FD1006889BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D39EBB7525C28FD1006889BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D39EBB7725C28FD1006889BF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D39EBB7825C28FD1006889BF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D39EBB7A25C28FD1006889BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D39EBB7B25C28FD1006889BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D39EBB7E25C28FD1006889BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D39EBB8025C28FD8006889BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D39EBB8325C28FD8006889BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D39EBB8525C28FD8006889BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D39EBB8625C28FD8006889BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D39EBB8C25C28FD8006889BF /* queenly-take-homeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "queenly-take-homeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39EBB9025C28FD8006889BF /* queenly_take_homeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = queenly_take_homeTests.m; sourceTree = "<group>"; };
+		D39EBB9225C28FD8006889BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D39EBB9725C28FD8006889BF /* queenly-take-homeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "queenly-take-homeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39EBB9B25C28FD8006889BF /* queenly_take_homeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = queenly_take_homeUITests.m; sourceTree = "<group>"; };
+		D39EBB9D25C28FD8006889BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D39EBB6E25C28FD1006889BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39EBB8925C28FD8006889BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39EBB9425C28FD8006889BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D39EBB6825C28FD1006889BF = {
+			isa = PBXGroup;
+			children = (
+				D39EBB7325C28FD1006889BF /* queenly-take-home */,
+				D39EBB8F25C28FD8006889BF /* queenly-take-homeTests */,
+				D39EBB9A25C28FD8006889BF /* queenly-take-homeUITests */,
+				D39EBB7225C28FD1006889BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D39EBB7225C28FD1006889BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D39EBB7125C28FD1006889BF /* queenly-take-home.app */,
+				D39EBB8C25C28FD8006889BF /* queenly-take-homeTests.xctest */,
+				D39EBB9725C28FD8006889BF /* queenly-take-homeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D39EBB7325C28FD1006889BF /* queenly-take-home */ = {
+			isa = PBXGroup;
+			children = (
+				D39EBB7425C28FD1006889BF /* AppDelegate.h */,
+				D39EBB7525C28FD1006889BF /* AppDelegate.m */,
+				D39EBB7725C28FD1006889BF /* SceneDelegate.h */,
+				D39EBB7825C28FD1006889BF /* SceneDelegate.m */,
+				D39EBB7A25C28FD1006889BF /* ViewController.h */,
+				D39EBB7B25C28FD1006889BF /* ViewController.m */,
+				D39EBB7D25C28FD1006889BF /* Main.storyboard */,
+				D39EBB8025C28FD8006889BF /* Assets.xcassets */,
+				D39EBB8225C28FD8006889BF /* LaunchScreen.storyboard */,
+				D39EBB8525C28FD8006889BF /* Info.plist */,
+				D39EBB8625C28FD8006889BF /* main.m */,
+			);
+			path = "queenly-take-home";
+			sourceTree = "<group>";
+		};
+		D39EBB8F25C28FD8006889BF /* queenly-take-homeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D39EBB9025C28FD8006889BF /* queenly_take_homeTests.m */,
+				D39EBB9225C28FD8006889BF /* Info.plist */,
+			);
+			path = "queenly-take-homeTests";
+			sourceTree = "<group>";
+		};
+		D39EBB9A25C28FD8006889BF /* queenly-take-homeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D39EBB9B25C28FD8006889BF /* queenly_take_homeUITests.m */,
+				D39EBB9D25C28FD8006889BF /* Info.plist */,
+			);
+			path = "queenly-take-homeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D39EBB7025C28FD1006889BF /* queenly-take-home */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D39EBBA025C28FD8006889BF /* Build configuration list for PBXNativeTarget "queenly-take-home" */;
+			buildPhases = (
+				D39EBB6D25C28FD1006889BF /* Sources */,
+				D39EBB6E25C28FD1006889BF /* Frameworks */,
+				D39EBB6F25C28FD1006889BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "queenly-take-home";
+			productName = "queenly-take-home";
+			productReference = D39EBB7125C28FD1006889BF /* queenly-take-home.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D39EBB8B25C28FD8006889BF /* queenly-take-homeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D39EBBA325C28FD8006889BF /* Build configuration list for PBXNativeTarget "queenly-take-homeTests" */;
+			buildPhases = (
+				D39EBB8825C28FD8006889BF /* Sources */,
+				D39EBB8925C28FD8006889BF /* Frameworks */,
+				D39EBB8A25C28FD8006889BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D39EBB8E25C28FD8006889BF /* PBXTargetDependency */,
+			);
+			name = "queenly-take-homeTests";
+			productName = "queenly-take-homeTests";
+			productReference = D39EBB8C25C28FD8006889BF /* queenly-take-homeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D39EBB9625C28FD8006889BF /* queenly-take-homeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D39EBBA625C28FD8006889BF /* Build configuration list for PBXNativeTarget "queenly-take-homeUITests" */;
+			buildPhases = (
+				D39EBB9325C28FD8006889BF /* Sources */,
+				D39EBB9425C28FD8006889BF /* Frameworks */,
+				D39EBB9525C28FD8006889BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D39EBB9925C28FD8006889BF /* PBXTargetDependency */,
+			);
+			name = "queenly-take-homeUITests";
+			productName = "queenly-take-homeUITests";
+			productReference = D39EBB9725C28FD8006889BF /* queenly-take-homeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D39EBB6925C28FD1006889BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = Queenly;
+				TargetAttributes = {
+					D39EBB7025C28FD1006889BF = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					D39EBB8B25C28FD8006889BF = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = D39EBB7025C28FD1006889BF;
+					};
+					D39EBB9625C28FD8006889BF = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = D39EBB7025C28FD1006889BF;
+					};
+				};
+			};
+			buildConfigurationList = D39EBB6C25C28FD1006889BF /* Build configuration list for PBXProject "queenly-take-home" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D39EBB6825C28FD1006889BF;
+			productRefGroup = D39EBB7225C28FD1006889BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D39EBB7025C28FD1006889BF /* queenly-take-home */,
+				D39EBB8B25C28FD8006889BF /* queenly-take-homeTests */,
+				D39EBB9625C28FD8006889BF /* queenly-take-homeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D39EBB6F25C28FD1006889BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39EBB8425C28FD8006889BF /* LaunchScreen.storyboard in Resources */,
+				D39EBB8125C28FD8006889BF /* Assets.xcassets in Resources */,
+				D39EBB7F25C28FD1006889BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39EBB8A25C28FD8006889BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39EBB9525C28FD8006889BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D39EBB6D25C28FD1006889BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39EBB7C25C28FD1006889BF /* ViewController.m in Sources */,
+				D39EBB7625C28FD1006889BF /* AppDelegate.m in Sources */,
+				D39EBB8725C28FD8006889BF /* main.m in Sources */,
+				D39EBB7925C28FD1006889BF /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39EBB8825C28FD8006889BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39EBB9125C28FD8006889BF /* queenly_take_homeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39EBB9325C28FD8006889BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39EBB9C25C28FD8006889BF /* queenly_take_homeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D39EBB8E25C28FD8006889BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D39EBB7025C28FD1006889BF /* queenly-take-home */;
+			targetProxy = D39EBB8D25C28FD8006889BF /* PBXContainerItemProxy */;
+		};
+		D39EBB9925C28FD8006889BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D39EBB7025C28FD1006889BF /* queenly-take-home */;
+			targetProxy = D39EBB9825C28FD8006889BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D39EBB7D25C28FD1006889BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D39EBB7E25C28FD1006889BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D39EBB8225C28FD8006889BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D39EBB8325C28FD8006889BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D39EBB9E25C28FD8006889BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D39EBB9F25C28FD8006889BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D39EBBA125C28FD8006889BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43L4G56NYL;
+				INFOPLIST_FILE = "queenly-take-home/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.queenly.queenly-take-home";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D39EBBA225C28FD8006889BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43L4G56NYL;
+				INFOPLIST_FILE = "queenly-take-home/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.queenly.queenly-take-home";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D39EBBA425C28FD8006889BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43L4G56NYL;
+				INFOPLIST_FILE = "queenly-take-homeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.queenly.queenly-take-homeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/queenly-take-home.app/queenly-take-home";
+			};
+			name = Debug;
+		};
+		D39EBBA525C28FD8006889BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43L4G56NYL;
+				INFOPLIST_FILE = "queenly-take-homeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.queenly.queenly-take-homeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/queenly-take-home.app/queenly-take-home";
+			};
+			name = Release;
+		};
+		D39EBBA725C28FD8006889BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43L4G56NYL;
+				INFOPLIST_FILE = "queenly-take-homeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.queenly.queenly-take-homeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "queenly-take-home";
+			};
+			name = Debug;
+		};
+		D39EBBA825C28FD8006889BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43L4G56NYL;
+				INFOPLIST_FILE = "queenly-take-homeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.queenly.queenly-take-homeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "queenly-take-home";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D39EBB6C25C28FD1006889BF /* Build configuration list for PBXProject "queenly-take-home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39EBB9E25C28FD8006889BF /* Debug */,
+				D39EBB9F25C28FD8006889BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D39EBBA025C28FD8006889BF /* Build configuration list for PBXNativeTarget "queenly-take-home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39EBBA125C28FD8006889BF /* Debug */,
+				D39EBBA225C28FD8006889BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D39EBBA325C28FD8006889BF /* Build configuration list for PBXNativeTarget "queenly-take-homeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39EBBA425C28FD8006889BF /* Debug */,
+				D39EBBA525C28FD8006889BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D39EBBA625C28FD8006889BF /* Build configuration list for PBXNativeTarget "queenly-take-homeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39EBBA725C28FD8006889BF /* Debug */,
+				D39EBBA825C28FD8006889BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D39EBB6925C28FD1006889BF /* Project object */;
+}
